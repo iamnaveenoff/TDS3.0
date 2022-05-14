@@ -84,7 +84,7 @@ def print_menu():
         print (key, '--', menu_options[key] )
 
 def tbomb():
-    print("naveen")
+    bomber.TBomb()
 
 
 if __name__=='__main__':
