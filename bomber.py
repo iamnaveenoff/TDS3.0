@@ -390,7 +390,7 @@ TBomb can be used for many purposes which incudes -
 \t Friendly Spamming
 \t Testing Your Spam Detector and more ....
 
-TBomb is not intented for malicious uses.
+TBomb is not intended for malicious uses.
 """
 
 parser = argparse.ArgumentParser(description=description,
@@ -411,7 +411,7 @@ parser.add_argument("-v", "--version", action="store_true",
                     help="show current TBomb version")
 
 
-def TBomb():
+if __name__ == "__main__":
     args = parser.parse_args()
     if args.ascii:
         ASCII_MODE = True
