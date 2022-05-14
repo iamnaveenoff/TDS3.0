@@ -115,7 +115,7 @@ if __name__ == '__main__':
         if option == 1:
             tbomb()
         elif option == 2:
-            print('Thanks message before exiting')
+            print('Successfully Senjified The Target:!!!')
             exit()
         else:
             print('Invalid option. Please enter a number between 1 and 4.')
