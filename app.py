@@ -100,7 +100,7 @@ def print_menu():
 
 
 def tbomb():
-    subprocess.run(["ls"])
+    subprocess.run(["python bomber.py"])
 
 
 if __name__ == '__main__':
