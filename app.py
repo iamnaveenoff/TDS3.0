@@ -76,7 +76,7 @@ bann_text()
 
 menu_options = {
     1: 'TBomb',
-    4: 'Exit',
+    2: 'Exit',
 }
 
 def print_menu():
@@ -98,7 +98,7 @@ if __name__=='__main__':
         #Check what choice was entered and act accordingly
         if option == 1:
             tbomb()
-        elif option == 4:
+        elif option == 2:
             print('Thanks message before exiting')
             exit()
         else:
