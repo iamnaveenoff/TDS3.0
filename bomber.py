@@ -307,8 +307,8 @@ def selectnode(mode="sms"):
         clr()
         bann_text()
         check_intr()
-        check_for_updates()
-        notifyen()
+        # check_for_updates()
+        # notifyen()
 
         max_limit = {"sms": 500, "call": 15, "mail": 200}
         cc, target = "", ""
