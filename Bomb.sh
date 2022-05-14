@@ -1,4 +1,4 @@
-
+#!/bin/sh
 
 
 pause() {
@@ -43,10 +43,10 @@ do
     read ch
     clear
     if [ $ch -eq 1 ];then
-        python3 bomber.py --sms
+        python bomber.py --sms
         exit
     elif [ $ch -eq 2 ];then
-        python3 bomber.py --call
+        python bomber.py --call
         exit
     elif [ $ch -eq 3 ];then
         banner
