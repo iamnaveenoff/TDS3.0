@@ -100,7 +100,7 @@ def print_menu():
 
 
 def tbomb():
-    subprocess.call(['sh', './start.sh'])
+    subprocess.call(['sh', './Start.sh'])
 
 
 if __name__ == '__main__':
