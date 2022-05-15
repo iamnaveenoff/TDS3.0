@@ -89,8 +89,8 @@ install_deps(){
 
 banner
 pause
-detect_distro
-init_environ
+#detect_distro
+#init_environ
 #if [ -f .update ];then
 #    echo "All Requirements Found...."
 #else
@@ -115,18 +115,18 @@ do
     read ch
     clear
     if [ $ch -eq 1 ];then
-        $PYTHON bomber.py --sms
+        python bomber.py --sms
         exit
     elif [ $ch -eq 2 ];then
-        $PYTHON bomber.py --call
+        python bomber.py --call
         exit
     elif [ $ch -eq 3 ];then
-        $PYTHON bomber.py --mail
+        python bomber.py --mail
         exit
     elif [ $ch -eq 4 ];then
         echo -e "\e[1;34m Downloading Latest Files..."
         rm -f .update
-        $PYTHON bomber.py --update
+        python bomber.py --update
         echo -e "\e[1;34m RUN TBomb Again..."
         pause
         exit
