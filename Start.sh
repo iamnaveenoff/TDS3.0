@@ -89,8 +89,8 @@ install_deps(){
 
 banner
 pause
-#detect_distro
-#init_environ
+detect_distro
+init_environ
 #if [ -f .update ];then
 #    echo "All Requirements Found...."
 #else
