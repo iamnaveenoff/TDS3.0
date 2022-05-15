@@ -100,7 +100,7 @@ def print_menu():
 
 
 def tbomb():
-    subprocess.Popen("python bomber.py -sms", shell=True)
+   bomber.naveen()
 
 
 if __name__ == '__main__':

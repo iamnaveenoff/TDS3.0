@@ -411,7 +411,7 @@ parser.add_argument("-v", "--version", action="store_true",
                     help="show current TBomb version")
 
 
-if __name__ == "__main__":
+def naveen():
     args = parser.parse_args()
     if args.ascii:
         ASCII_MODE = True
